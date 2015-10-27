@@ -1,0 +1,23 @@
+{
+  "name": "paper-drawer-panel",
+  "version": "0.0.0",
+  "authors": [
+    "Faiz Malkani <malkanifaiz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.3",
+    "neon-animation": "PolymerElements/neon-animation#~1.0.6",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.4",
+    "paper-icon-button": "PolymerElements/paper-icon-button#~1.0.3",
+    "paper-item": "PolymerElements/paper-item#~1.0.2",
+    "paper-ripple": "PolymerElements/paper-ripple#~1.0.1"
+  }
+}

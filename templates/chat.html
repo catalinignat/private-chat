@@ -1,0 +1,19 @@
+<div id="chat-auth">
+    Enter your nickname
+    <input type="text" id="chat-user">
+    <button class="chat-auth-btn" ng-click="clickAuth();">Ok</button>
+</div>
+<div id="chat-container">
+
+    <button class="chat-send-btn" ng-click="clickSendMess();">Send</button>
+    <input type="text" id="chat-input" ng-keypress="onKeyPressHandler($event)">
+    <div>
+        <div class="chat" id="chat-screen"></div>
+        <div id="online-users" class="chat">
+            <ul>
+                <li ng-repeat="user in usernames track by $index">{{usernames[$index]}}</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
